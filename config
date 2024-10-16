@@ -50,7 +50,7 @@ battery all {
 }
 
 time {
-	format = "%H:%M  %d/%m/%Y"
+	format = "%H:%M %a  %d/%m/%Y"
 }
 
 load {
