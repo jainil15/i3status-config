@@ -9,6 +9,7 @@ general {
 order+= "volume master"
 order += "disk /"
 order += "disk /home"
+order += "memory"
 order += "wireless _first_"
 order += "ethernet _first_"
 order += "battery all"
@@ -77,3 +78,6 @@ cpu_temperature 0 {
 	format = %degrees°C
 }
 
+memory {
+    format = "%used/%total"
+}
